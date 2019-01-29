@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Broadway's Proyect</title>
-    <link rel="stylesheet" type="text/css" href="resources/styles/style.css">
+    <link href="C:\Proyects\Broadway\resources\styles\style.css" rel="stylesheet" type="text/css" >
   </head>
   <body>
-    <h1>
-    Broadway Design
+    <h1 id="home" class="main-header">Broadway Design
+      <nav class="link">
+            <ul><a href="#home">Home</a></ul>
+            <ul><a href="#process">Process</a></ul>
+            <ul><a href="#work">Work</a></ul>
+            <ul><a href="#team">Team</a></ul>
+            <ul><a href="#contact">Contact</a></ul>
+      </nav>
     </h1>
-    <nav>
-          <a href="#">Home</a>
-            <a href="#">Process</a>
-              <a href="#">Work</a>
-                <a href="#">Team</a>
-                  <a href="#">Contact</a>
-    </nav>
-        <h2>Our Process</h2>
+
+        <h1 id="process" class="header-sec">Our Process</h1>
 
         <img src="resources/images/identify.svg" alt="image1">
         <h3>Identify</h3>
@@ -30,18 +30,22 @@
           <h3>Execute</h3>
           <p>We put everything we have into our work.</p>
 
-          <h1>Designed in New York</h1>
+          <h1 class="header-third">Designed in New York</h1>
 
-          <h2>Portfolio</h2>
+          <h2 id="work">Portfolio</h2>
             <p>Coming Soon</p>
 
-            <h2>Team</h2>
+            <h2 id="team">Team</h2>
               <p>We're Hiring!</p>
 
-            <h2>Contact</h2>
+            <h2 id="contact">Contact</h2>
               <p>Phone: (555)-555-5555 E-mail: test@example.com Twitter: @test</p>
 
-          <h1>© Broadway 2017 Home About Work Team Contact</h1>
-
+          <h1 class="footer">© Broadway 2017 <span class="ending-footer">
+            <a href="#home">Home</a>
+            <a href="#process">About</a>
+            <a href="#work">Work</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a></span></h1>
   </body>
 </html>
