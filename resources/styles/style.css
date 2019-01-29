@@ -17,3 +17,17 @@ color: white;
 ul a {
   color: white;
 }
+
+.header-sec {
+  font-size: 32px
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+  }
+
+  p {
+    font-size: 14px
+  }
